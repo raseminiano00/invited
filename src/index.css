@@ -3,10 +3,28 @@
 @tailwind utilities;
 
 @layer base {
-    html {
-        font-family: "Merriweather", serif;
-        font-optical-sizing: auto;
-        font-style: normal;
-        background-color: white;
-    }
+  html {
+    background-color: white;
+  }
 }
+
+@font-face {
+  font-family: "ooohbaby";
+  src: url("../public/OoohBaby-Regular.ttf");
+}
+
+.ooohbaby {
+  font-family: "ooohbaby";
+}
+
+
+@font-face {
+    font-family: "ephesis";
+    src: url("../public/Ephesis-Regular.ttf");
+  }
+  
+  .ephesis {
+    font-family: "ephesis";
+    font-weight: bold;
+  }
+  

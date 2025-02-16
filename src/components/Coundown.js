@@ -51,6 +51,11 @@ const Countdown = () => {
                         <p>{timeLeft.minutes}</p>
                         <p>Mins</p>
                     </div>
+                    <div>:</div>
+                    <div className="flex flex-col items-center">
+                        <p>{timeLeft.seconds}</p>
+                        <p>Sec</p>
+                    </div>
                 </div>
             </div>
         </div>
