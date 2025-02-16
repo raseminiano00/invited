@@ -1,18 +1,20 @@
 {
   "files": {
-    "main.css": "/invited/static/css/main.74028492.css",
-    "main.js": "/invited/static/js/main.49b06bc5.js",
+    "main.css": "/invited/static/css/main.71bb9b30.css",
+    "main.js": "/invited/static/js/main.b856eeb5.js",
     "static/js/453.fedd3045.chunk.js": "/invited/static/js/453.fedd3045.chunk.js",
     "static/media/sheena.jpg": "/invited/static/media/sheena.49ecd27a2d5ce181ef50.jpg",
     "static/media/Ephesis-Regular.ttf": "/invited/static/media/Ephesis-Regular.9d76794a944a1f234087.ttf",
     "static/media/OoohBaby-Regular.ttf": "/invited/static/media/OoohBaby-Regular.ab6a7915e4c444843761.ttf",
+    "static/media/page-1.png": "/invited/static/media/page-1.3c089f5b619dcd47e559.png",
+    "static/media/page-2.png": "/invited/static/media/page-2.fd2c157db732ffc0a4e1.png",
     "index.html": "/invited/index.html",
-    "main.74028492.css.map": "/invited/static/css/main.74028492.css.map",
-    "main.49b06bc5.js.map": "/invited/static/js/main.49b06bc5.js.map",
+    "main.71bb9b30.css.map": "/invited/static/css/main.71bb9b30.css.map",
+    "main.b856eeb5.js.map": "/invited/static/js/main.b856eeb5.js.map",
     "453.fedd3045.chunk.js.map": "/invited/static/js/453.fedd3045.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.74028492.css",
-    "static/js/main.49b06bc5.js"
+    "static/css/main.71bb9b30.css",
+    "static/js/main.b856eeb5.js"
   ]
 }
