@@ -7,7 +7,7 @@ import 'react-photo-view/dist/react-photo-view.css';
 const Nuptials = () => {
 
   return (
-    <section className="details-section grid grid-cols-12 bg-slate-50">
+    <section className="details-section grid grid-cols-12">
         <div className="col-span-12 my-auto w-full h-[1050px]">
           <div className="mt-14 w-full flex flex-col items-center">
                 <p className="text-2xl">NUPTIALS</p>
