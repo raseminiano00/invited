@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/invited/static/css/main.ac6afdb7.css",
-    "main.js": "/invited/static/js/main.948cbc59.js",
+    "main.js": "/invited/static/js/main.f87f1edd.js",
     "static/js/453.fedd3045.chunk.js": "/invited/static/js/453.fedd3045.chunk.js",
     "static/media/japan-1.jpg": "/invited/static/media/japan-1.51f4df185a8256c33089.jpg",
     "static/media/Birthstone-Regular.ttf": "/invited/static/media/Birthstone-Regular.07198561218abc06ed95.ttf",
@@ -29,11 +29,11 @@
     "static/media/revicons.woff": "/invited/static/media/revicons.e8746a624ed098489406.woff",
     "index.html": "/invited/index.html",
     "main.ac6afdb7.css.map": "/invited/static/css/main.ac6afdb7.css.map",
-    "main.948cbc59.js.map": "/invited/static/js/main.948cbc59.js.map",
+    "main.f87f1edd.js.map": "/invited/static/js/main.f87f1edd.js.map",
     "453.fedd3045.chunk.js.map": "/invited/static/js/453.fedd3045.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.ac6afdb7.css",
-    "static/js/main.948cbc59.js"
+    "static/js/main.f87f1edd.js"
   ]
 }
