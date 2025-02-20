@@ -36,7 +36,7 @@ const Details = () => {
 
                                 
                 <div className="mt-8 flex flex-col items-center text-center gap-1">
-                    <p className="text-sm">Reception follows at</p>
+                    <p className="text-xs mb-4">Reception follows at</p>
                     <p className="text-xl">Ramada by Wyndham</p>
                     <p className="text-xl">Manila Central</p>
                     <p className="text-sm">ONGPIN ST. SANTA CRUZ,</p> 
