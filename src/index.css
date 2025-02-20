@@ -27,4 +27,15 @@
     font-family: "ephesis";
     font-weight: bold;
   }
+
+
+  
+@font-face {
+  font-family: "birthstone";
+  src: url("../public/Birthstone-Regular.ttf");
+}
+
+.birthstone {
+  font-family: "birthstone";
+}
   

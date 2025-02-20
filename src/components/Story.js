@@ -10,7 +10,7 @@ const Story = () => {
     <section className="details-section grid grid-cols-12">
         <div className="col-span-12 my-auto w-full h-[300px]">
           <div className="mt-14 w-full flex flex-col items-center">
-                <p className="text-2xl">Our Story</p>
+              <p className="text-[40px] birthstone">Our Story</p>
                 <div className="mt-4 h-[2px] w-[90%] bg-emerald-600"></div>
             </div>
         </div>

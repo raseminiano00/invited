@@ -18,11 +18,8 @@ function App() {
       <Banner />
       <Details />
       <Countdown />
-      <Story />
       <Nuptials />
       <Showcase />
-      <Venue />
-      <GiftGuide />
       <DressCode />
       <Reminders />
       <RsvpForm />

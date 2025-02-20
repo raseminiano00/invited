@@ -1,6 +1,19 @@
 import React from "react";
-import Page1 from "../assets/page-1.png";
-import Page2 from "../assets/page-2.png";
+import Japan1 from "../assets/japan-1.jpg";
+import Japan2 from "../assets/japan-2.jpg";
+import Cebu1 from "../assets/cebu-1.jpg";
+import Cebu2 from "../assets/cebu-2.jpg";
+import Cebu3 from "../assets/cebu-3.jpg";
+import Cebu4 from "../assets/cebu-4.jpg";
+import Cebu5 from "../assets/cebu-5.jpg";
+import Falls1 from "../assets/falls-1.jpg";
+import Falls2 from "../assets/falls-2.jpg";
+import Falls3 from "../assets/falls-3.jpg";
+import Falls4 from "../assets/falls-4.jpg";
+import Falls5 from "../assets/falls-5.jpg";
+import Falls6 from "../assets/falls-6.jpg";
+import Falls7 from "../assets/falls-7.jpg";
+import Falls8 from "../assets/falls-8.jpg";
 import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
 
@@ -28,29 +41,53 @@ const Showcase = () => {
 
   return (
     <section className="details-section grid grid-cols-12 ">
-        <div className="col-span-12 my-auto w-full h-[800px]">
+        <div className="col-span-12 my-auto w-full h-[680px]">
 
             <div className="mt-14 w-full flex flex-col items-center">
-                <p className="text-2xl">PRENUP</p>
+              <p className="text-[40px] birthstone">The Prenup</p>
                 <div className="mt-4 h-[2px] w-[90%] bg-emerald-600"></div>
             </div>
 
-            <div className='mt-14'>
-                <Carousel showDots={true} responsive={responsive}>
+            <div className='mt-10 px-1 lg:px-5'>
+                <Carousel infinite={true} showDots={true} responsive={responsive}>
                   <div className="w-full">
-                    <img className="h-full w-full" src={Page1} alt="" />
+                    <img className="h-full w-full" src={Japan2} alt="" />
                   </div>
-                  
                   <div className="w-full">
-                    <img className="h-full w-full" src={Page2} alt="" />
+                    <img className="h-full w-full" src={Cebu1} alt="" />
                   </div>
-                  
                   <div className="w-full">
-                    <img className="h-full w-full" src={Page1} alt="" />
+                    <img className="h-full w-full" src={Cebu2} alt="" />
                   </div>
-                  
                   <div className="w-full">
-                    <img className="h-full w-full" src={Page2} alt="" />
+                    <img className="h-full w-full" src={Cebu3} alt="" />
+                  </div>
+                  <div className="w-full">
+                    <img className="h-full w-full" src={Cebu4} alt="" />
+                  </div>
+                  <div className="w-full">
+                    <img className="h-full w-full" src={Falls1} alt="" />
+                  </div>
+                  <div className="w-full">
+                    <img className="h-full w-full" src={Falls2} alt="" />
+                  </div>
+                  <div className="w-full">
+                    <img className="h-full w-full" src={Falls3} alt="" />
+                  </div>
+                  <div className="w-full">
+                    <img className="h-full w-full" src={Falls4} alt="" />
+                  </div>
+                  <div className="w-full">
+                    <img className="h-full w-full" src={Falls5} alt="" />
+                  </div>
+                  <div className="w-full">
+                    <img className="h-full w-full" src={Falls6} alt="" />
+                  </div>
+                  <div className="w-full">
+                    <img className="h-full w-full" src={Falls7} alt="" />
+                  </div>
+                  <div className="w-full">
+                    <img className="h-full w-full" src={Falls8} alt="" />
                   </div>
                 </Carousel>;
             </div>
