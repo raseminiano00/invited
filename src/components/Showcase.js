@@ -41,9 +41,9 @@ const Showcase = () => {
 
   return (
     <section className="details-section grid grid-cols-12 ">
-        <div className="col-span-12 my-auto w-full h-[680px]">
+        <div className="col-span-12 my-auto w-full h-full">
 
-            <div className="mt-14 w-full flex flex-col items-center">
+            <div className="w-full mt-14 flex flex-col items-center">
               <p className="text-[40px] birthstone">The Prenup</p>
                 <div className="mt-4 h-[2px] w-[90%] bg-emerald-600"></div>
             </div>
@@ -89,9 +89,8 @@ const Showcase = () => {
                   <div className="w-full">
                     <img className="h-full w-full" src={Falls8} alt="" />
                   </div>
-                </Carousel>;
+                </Carousel>
             </div>
-
         </div>
     </section>
   );

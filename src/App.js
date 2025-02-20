@@ -23,7 +23,6 @@ function App() {
       <DressCode />
       <Reminders />
       <RsvpForm />
-      <Footer />
     </>
   );
 }

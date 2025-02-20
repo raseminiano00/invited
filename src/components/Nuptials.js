@@ -32,12 +32,12 @@ const responsive = {
 const Nuptials = () => {
   return (
     <section className="details-section grid grid-cols-12">
-      <div className="col-span-12 my-auto w-full h-[550px]">
+      <div className="col-span-12 my-auto w-full h-full">
         <div className="mt-14 w-full flex flex-col items-center">
           <p className="text-[40px] birthstone">The Nuptials</p>
           <div className="mt-4 h-[2px] w-[90%] bg-emerald-600"></div>
         </div>
-        <div className="relative col-span-12 mx-auto top-8 w-3/4 h-3/4">
+        <div className="relative col-span-12 mt-10 mx-auto w-3/4 h-3/4">
           <PhotoProvider>
             <Carousel showDots={true} responsive={responsive}>
               <PhotoView src={Page1}>

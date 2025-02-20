@@ -5,12 +5,12 @@ import "react-photo-view/dist/react-photo-view.css";
 const DressCode = () => {
   return (
     <section className="details-section grid grid-cols-12">
-      <div className="col-span-12 my-auto w-full h-[850px]">
+      <div className="col-span-12 my-auto w-full h-full">
         <div className="mt-14 w-full flex flex-col items-center">
           <p className="text-[40px] birthstone">Dress Code</p>
           <div className="mt-4 h-[2px] w-[90%] bg-emerald-600"></div>
 
-          <div className="mt-14 w-3/4">
+          <div className="mt-10 w-3/4">
             <p>Please join us in your most elegant attire. For guidance:</p>
 
             <div class="ml-5">

@@ -4,9 +4,8 @@ const RsvpForm = () => {
   return (
     <section>
       <iframe
-        className="mx-auto mt-14 w-5/6 bg-slate-50"
+        className="mx-auto mt-14 w-5/6 bg-slate-50 h-[1240px] md:h-[1050px]"
         src="https://docs.google.com/forms/d/e/1FAIpQLSfb_T15O_Y28M-G_VUSUoX7riLBCO6pcCv1jGO2KpOJRU8DtA/viewform?embedded=true"
-        height="1230"
         frameborder="0"
         marginheight="0"
         marginwidth="0"
